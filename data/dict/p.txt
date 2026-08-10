@@ -587,7 +587,7 @@ pepper caster n. piparbaukur
 peppery l. pipraður, barkandi; uppstökkur
 peptic l. meltingar-
 peptics nft. meltingarfæri
-per fs. (latnesk) í gegnum; yfir; með; [~ annum, ~ year] um árið; [~ cent] af hundraði; [~ se] út af fyrir sig, í sjálfu sér; [~ post] með pósti; [~ steamer] með gufuskipi
+per fs. (lat.) í gegnum; yfir; með; [~ annum, ~ year] um árið; [~ cent] af hundraði; [~ se] út af fyrir sig, í sjálfu sér; [~ post] með pósti; [~ steamer] með gufuskipi
 peradventure ao. ef til vill; n. tilviljun, óvissa, efi
 perambulate s. ganga um; fara í gegnum; rannsaka
 perambulation n. yfirferð; skoðunarferð
@@ -1243,8 +1243,8 @@ plug n. tappi; negla (í bát); s. setja tappa í; setja neglu í; troða í
 plum n. plóma; plómutré; rúsína; [dried ~] sveskja; plómulitur; l. plómulitaður; góður, eftirsóknarverður ([a ~ job, position])
 plum pudding n. rúsínubúðingur
 plum tree n. plómutré
-plumage n. fjaðrir, fiður
-plumaged l. fiðraður, fjaðraður
+plumage n. fjaðrir, fiður, fjaðraskraut
+plumaged l. fiðraður, fjaðraður, fjöðrum skreyttur
 plumb n. blýlóð, sakka (sjá %[plumb bob]%); l. lóðréttur; ao. lóðrétt, beint ([~ down]); s. kanna með lóðlínu ([~ the depth]); gera lóðrétt; innsigla með blýinnsigli
 plumbean l. blýlitaður
 plumbeous l. blýlitaður

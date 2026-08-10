@@ -1722,8 +1722,8 @@ undefined l. óskilgreindur
 chamomile n. kamilla, kryddbaldursbrá (jurt)
 cognitive l. vitsmuna-, vitsmunalegur, hugar-, skilvits-, skilvitslegur
 cognitive science n. hugfræði
-calibrate s. kvarða, fínstilla
-calibration n. kvörðun, fínstilling
+calibrate s. kvarða; fínstilla
+calibration n. kvörðun; fínstilling
 untraceable l. órekjanlegur
 karate n. karate (bardagaíþrótt)
 unromantic l. órómantískur
@@ -6176,8 +6176,8 @@ smithereens nft. öreindir, tætlur; [blow to ~] að sprengja í tætlur
 layover n. millilending (þegar ferðast er með flugvél)
 kingpin n. glæpakóngur, glæpaforingi, mafíuforingi
 doomed l. dæmdur, dauðadæmdur, steyptur í glötun; vonlaus
-mastermind s. að vera heilinn á bak við eitthvað; n. snillingur, hugmyndasmiður, hönnuður (gjarnan notað um glæpi eða illvirki)
-slingshot n. slöngva, teygjubyssa
+mastermind s. að vera heilinn á bak við eitthvað; n. heilinn á bak við e-ð, snillingur, hugmyndasmiður, hönnuður, skipuleggjandi (gjarnan notað um glæpi eða illvirki)
+slingshot n. teygjubyssa, slöngva
 hijinx nft. brall, uppákomur, brek, sprell, strákapör
 zoning n. deiliskipulag
 focal l. að vera í brennipunkti
@@ -6567,7 +6567,7 @@ monsoonal l. monsún- (sjá %[monsoon]%)
 undersea ao. neðansjávar; l. neðansjávar-
 undernutrition n. næringarskortur, vannæring, skortur á næringu
 truckload n. bílfarmur, bílhlass
-linguistically ao. málvísindalega, málfræðilega
+linguistically ao. málvísindalega, málfræðilega, tungumálalega
 therein ao. þar í, í því
 loudmouth n. hávær blaðurskjóða
 wiretap n. hlerun (á fjarsamskiptum); s. hlera (fjarsamskipti), koma upp hlerunarbúnaði
@@ -9428,6 +9428,8 @@ quadruplet n. fjórburi; fern sömu tegundar
 quintuplet n. fimmburi; fimm sömu tegundar
 sextuplet n. sexburi; sex sömu tegundar
 ombudsman n. umboðsmaður
+ombudsperson n. sjá %[ombudsman]%
+ombudsmanship n. embætti umboðsmanns
 decipherable l. ráðanlegur, læsilegur, skiljanlegur
 indecipherable l. óráðanlegur, ólæsilegur, óskiljanlegur
 undecipherable l. óráðanlegur, ólæsilegur, óskiljanlegur
@@ -11998,10 +12000,10 @@ shipboard n. skipsfjöl; l. um borð í skipi
 slanted l. skáhallur; bjagaður, hlutdrægur ([~ in his judgment])
 napalm n. napalm (hlaupkennt bensín sem notað er í eldsprengjum)
 sarin n. sarín; saríngas ([~ gas])
-ongoing l. yfirstandandi, sem er í gangi
+ongoing l. yfirstandandi, núverandi, sem er í gangi núna
 onto fs. á, upp á, ofan á
 paintball n. litbolti (leikur)
-transgender l. kynskipti-, trans-
+transgender l. kynskipti-, kynskiptings-, trans-
 promotional l. kynningar-, auglýsinga-, í auglýsingaskyni
 generative AI n. spunagreind (sjá %[AI]%)
 regulatory l. reglugerðar-; stýri-, stjórn-; [~ system] stjórnkerfi
@@ -12009,3 +12011,13 @@ unquestionably ao. tvímælalaust, ótvírætt, vafalaust
 purposefulness n. ásetningur, ásett ráð
 intellectually ao. vitsmunalega ([~ stimulating, ~ bankrupt])
 intimidating l. ógnandi, hræðandi, yfirþyrmandi
+praisable l. lofsamlegur, lofsverður, sem hægt er að lofa, sem hægt er að hrósa
+unimpressive l. tilkomulítill, óimpónerandi, ekkert sérstaklega flottur
+calibrated l. kvarðaður; fínstilltur
+calibrator n. kvarðari
+basileus n. konungur, keisari (í austrómverska ríkinu)
+welsh s. forðast greiðslu; svíkja loforð
+undoable l. ógeranlegur, ógjörlegur
+demo n. sýningareintak; demó (sýningarupptaka tónlistarmanns); l. kynningar-, sýningar-
+yenta n. kjaftaskur, slúðrari, kjaftakerling (jiddískt slangur)
+scrapyard n. skranport

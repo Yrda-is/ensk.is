@@ -240,7 +240,7 @@ bauble n. glingur
 bavin n. hrísbindi
 bawbee n. skyldingur
 bawd n. skækja
-bawdy l. klúr
+bawdy l. klúr, klæminn
 bawl s. öskra, æpa; n. öskur
 bay n. fjörður, flói; gelt; [at ~] í varnarstöðu (um dýr); í kreppu ([keep the enemy at ~]); s. gelta; l. jarpur ([~ horse])
 bayard n. jarpur hestur
@@ -1223,7 +1223,7 @@ bumptiousness n. hroki, sjálfsálit
 bun n. bolla (kaka)
 bunch n. vöndull; kippa ([~ of keys]); hrísla ([~ of grapes])
 buncombe n. sjá %[bunkum]%
-bundle n. pinkill, böggull, stöngull; s. binda saman; [~ off] senda burtu í skyndi; þjóta burt
+bundle n. pinkill, böggull, knippi; s. binda saman; [~ off] senda burtu í skyndi; þjóta burt
 bung n. spons (í tunnu); s. setja spons í, sponsa
 bungalow n. sumarhús
 bungle s. skemma af klaufaskap; káka (við e-ð)

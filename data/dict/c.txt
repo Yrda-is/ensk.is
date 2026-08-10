@@ -2704,7 +2704,7 @@ cut s. skera; höggva; höggva upp, fella (tré); kljúfa; slá (gras eða korn)
 cutaneous l. hörunds-, húð- ([~ disease])
 cute l. sætur, krúttlegur; skarpskyggn (sbr. %[acute]%)
 cut-glass n. slípað gler
-cuticle n. hörund, hús
+cuticle n. hörund, yfirhúð; naglaband
 cutlass n. stutt sverð, sax
 cutler n. hnífasmiður; hnífakaupmaður
 cutlery n. mataráhöld; hnífasmíði; eggjárnasmíði; eggjárn

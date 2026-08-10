@@ -597,6 +597,7 @@ dossier
 shill
 flamenco
 tranche
+tranched
 trendy
 blurry
 freefall
@@ -1103,7 +1104,6 @@ deviationist
 indigenization
 self-assurance
 turnaround
-demo
 locale
 deluxe
 techno
@@ -3815,6 +3815,7 @@ incapacitated
 butt-clenching
 quiet-spoken
 sapphic
+teleprompt
 teleprompter
 antitumoral
 enabler
@@ -6626,3 +6627,23 @@ campanile
 saprozoic
 expressage
 sherpa
+bundle (endurskoða)
+foosball
+kegel
+calibrator
+miscue
+chocolatier
+dongle
+pigeonhole (endurskoða)
+autotelic
+sighting
+touché
+untoward (endurskoða)
+dogface
+cockblock
+frick
+fricking
+palapa
+posthaste (endurskoða)
+keyman
+overage
