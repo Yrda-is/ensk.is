@@ -1,0 +1,86 @@
+name: Sameina uppstreymi í yrda
+
+# Sameinar master sveinbjornt/ensk.is vikulega í grein yrda, svo Yrða fái nýjar uppstreymisbreytingar
+# ásamt leiðréttingum sínum. Sameinað er en aldrei endurgrunnað, svo færslur sem Yrða festir haldist.
+# Stangist breytingar á fellur keyrslan (GitHub lætur vita) og sameina þarf handvirkt.
+# Áætlaðar keyrslur fara aðeins af sjálfgefinni grein, svo yrda verður að vera hún.
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: uppfaera-yrda
+  cancel-in-progress: false
+
+env:
+  IN_CI_ENVIRONMENT: 1
+
+jobs:
+  sameina:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: yrda
+          fetch-depth: 0
+
+      - name: Sækja uppstreymi
+        id: uppstreymi
+        run: |
+          git remote add uppstreymi https://github.com/sveinbjornt/ensk.is.git
+          git fetch --no-tags uppstreymi master
+          if git merge-base --is-ancestor uppstreymi/master HEAD; then
+            echo "Ekkert nýtt í uppstreymi."
+            echo "nytt=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "nytt=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Sameina
+        id: sameina
+        if: steps.uppstreymi.outputs.nytt == '1'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          if git merge --no-edit -m "Sameinar master úr sveinbjornt/ensk.is" uppstreymi/master; then
+            echo "arekstur=0" >> "$GITHUB_OUTPUT"
+          else
+            git diff --name-only --diff-filter=U > /tmp/arekstrar.txt
+            git merge --abort
+            echo "arekstur=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Lýsa árekstri
+        if: steps.sameina.outputs.arekstur == '1'
+        run: |
+          {
+            echo "Sameining sveinbjornt/ensk.is master ($(git rev-parse --short uppstreymi/master)) í yrda stangaðist á í:"
+            echo
+            sed 's/^/- /' /tmp/arekstrar.txt
+            echo
+            echo "Sameinið handvirkt (merge, ekki rebase) og ýtið á yrda."
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 1
+
+      - uses: actions/setup-python@v6
+        if: steps.sameina.outputs.arekstur == '0'
+        with:
+          python-version: "3.14"
+
+      - name: Prófa sameinuð gögn
+        if: steps.sameina.outputs.arekstur == '0'
+        run: |
+          python -m pip install uv
+          uv pip install --system -r requirements.txt -r requirements-dev.txt
+          python gen/verify.py
+          python gen/gen.py
+          python -m pytest
+
+      - name: Ýta á yrda
+        if: steps.sameina.outputs.arekstur == '0'
+        run: git push origin HEAD:yrda
