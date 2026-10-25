@@ -4,9 +4,10 @@
 Yrða les aðeins textaskrárnar í `data/dict/`, sem sveinbjornt/ensk.is gefur út með CC0
 (sjá [Dictionary License](#dictionary-license)).
 
-- `yrda` (sjálfgefin grein): uppstreymi ásamt leiðréttingum Yrðu. hph/yrda festir eina færslu hennar
-  (`ENSK_COMMIT` í Dockerfile) og uppfærir hana vikulega með PR-i.
-- `leiðréttingar`: leiðréttingar á gögnum sem ætlaðar eru uppstreymi; `yrda` inniheldur þær.
+- `yrda` (sjálfgefin grein): uppstreymi ásamt leiðréttingum Yrðu, sem fara á þessa grein. yrda.is
+  notar þá færslu hennar sem `ENSK_COMMIT` í Dockerfile Yrðu festir, og vikulegt PR í Yrðu færir
+  festuna.
+- `leiðréttingar` er aðeins grein PR-s til sveinbjornt/ensk.is.
 - `.github/workflows/uppfaera-yrda.yml` sameinar master uppstreymis vikulega í `yrda` (merge, aldrei
   rebase, svo festar færslur haldist). Stangist sameiningin á þarf að sameina handvirkt. Árekstur er
   aldrei leystur með því að fella brott línur Yrðu, heldur er leiðrétting Yrðu færð inn í nýja útgáfu
