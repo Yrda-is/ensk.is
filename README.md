@@ -1,3 +1,19 @@
+## Kvísl Yrðu
+
+Þetta er kvísl [Yrðu](https://yrda.is) af [sveinbjornt/ensk.is](https://github.com/sveinbjornt/ensk.is).
+Yrða les aðeins textaskrárnar í `data/dict/`, sem sveinbjornt/ensk.is gefur út með CC0
+(sjá [Dictionary License](#dictionary-license)).
+
+- `yrda` (sjálfgefin grein): uppstreymi ásamt leiðréttingum Yrðu. hph/yrda festir eina færslu hennar
+  (`ENSK_COMMIT` í Dockerfile) og uppfærir hana vikulega með PR-i.
+- `leiðréttingar`: leiðréttingar á gögnum sem ætlaðar eru uppstreymi; `yrda` inniheldur þær.
+- `.github/workflows/uppfaera-yrda.yml` sameinar master uppstreymis vikulega í `yrda` (merge, aldrei
+  rebase, svo festar færslur haldist). Stangist sameiningin á þarf að sameina handvirkt. Árekstur er
+  aldrei leystur með því að fella brott línur Yrðu, heldur er leiðrétting Yrðu færð inn í nýja útgáfu
+  línunnar.
+- Breytingar Yrðu miðað við uppstreymi: `git diff uppstreymi/master...yrda`, eftir
+  `git remote add uppstreymi https://github.com/sveinbjornt/ensk.is.git` og `git fetch uppstreymi`.
+
 [![License: CC0-1.0](https://shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)

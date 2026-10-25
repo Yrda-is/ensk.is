@@ -1,3 +1,5 @@
+> Um greinar þessarar kvíslar og sameiningu uppstreymis, sjá [Kvísl Yrðu](README.md#kvísl-yrðu) í README.
+
 # Contributing to ensk.is
 
 Thank you for your interest in contributing to the [ensk.is](https://ensk.is) English-Icelandic dictionary project. We welcome corrections, new words, and improvements to the codebase.
